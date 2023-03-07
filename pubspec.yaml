@@ -12,8 +12,6 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   firebase_core: ^2.7.0
-  learning_text_recognition: ^0.0.4
-  clipboard: ^0.1.3
   image_picker: ^0.8.6+4
   google_ml_kit: ^0.13.0
   google_mlkit_text_recognition: ^0.5.0

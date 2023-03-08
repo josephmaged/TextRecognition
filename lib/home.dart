@@ -67,6 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
       final file = File(image!.path);
       final inputImage = InputImage.fromFile(file);
       final recognizerText = await _textRecognizer.processImage(inputImage);
+      navigator.pop();
       await navigator.push(
         MaterialPageRoute(
           builder: (context) => ResultScreen(
